@@ -29,6 +29,7 @@ class BattleViewViewController: UIViewController {
     var playerMP = 0
     var enemyHP = 200
     var enemyMP = 0
+    var playerTP = 0
     
     var gameTimer: Timer!
     var isPlayerAttackAvailable: Bool = true
@@ -44,6 +45,7 @@ class BattleViewViewController: UIViewController {
         playerImageView.image = UIImage(named: "yusya.png")
         playerHPLbel.text = "\(playerHP) / 100"
         playerMPLabel.text = "\(playerMP) / 35"
+        playerTPLabel.text = "\(playerTP) / 40"
 
         
         enemyNameLabel.text = "龍"
@@ -155,7 +157,7 @@ class BattleViewViewController: UIViewController {
                 finishBattle(vanishImageView: enemyImageView, isPlayerWin: true)
                 
                 
-                player.currentTP += 10
+                player.currentTP += 20
                 if player.currentTP >= player.maxTP {
                     player.currentTP = player.maxTP
                 }

@@ -17,7 +17,7 @@ class Character {
     
     // 現在のステータス
     var currentHP: Int = 100
-    var currentTP: Int = 0
+    var currentTP: Int = 10
     var currentMP: Int = 0
     
     // 最大値

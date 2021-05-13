@@ -32,6 +32,7 @@
 		DF03594E264B8D7C00BA236E /* SE_charge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF03593C264B8D7C00BA236E /* SE_charge.mp3 */; };
 		DF03594F264B8D7C00BA236E /* lobby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF03593D264B8D7C00BA236E /* lobby.mp3 */; };
 		DF035950264B8D7C00BA236E /* misaki_gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF03593F264B8D7C00BA236E /* misaki_gothic.ttf */; };
+		DF035954264D1E8000BA236E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF035953264D1E8000BA236E /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		DF03593C264B8D7C00BA236E /* SE_charge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SE_charge.mp3; sourceTree = "<group>"; };
 		DF03593D264B8D7C00BA236E /* lobby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lobby.mp3; sourceTree = "<group>"; };
 		DF03593F264B8D7C00BA236E /* misaki_gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = misaki_gothic.ttf; sourceTree = "<group>"; };
+		DF035953264D1E8000BA236E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				DF0358ED264AD40400BA236E /* ViewController.swift */,
 				DF0358EF264AD40400BA236E /* Main.storyboard */,
 				DF0358F2264AD40600BA236E /* Assets.xcassets */,
+				DF035953264D1E8000BA236E /* icon.png */,
 				DF03592A264B8D7C00BA236E /* TechMon_Resource */,
 				DF0358F4264AD40600BA236E /* LaunchScreen.storyboard */,
 				DF0358F7264AD40600BA236E /* Info.plist */,
@@ -233,6 +236,7 @@
 				DF0358F3264AD40600BA236E /* Assets.xcassets in Resources */,
 				DF035950264B8D7C00BA236E /* misaki_gothic.ttf in Resources */,
 				DF03594D264B8D7C00BA236E /* SE_gameover.mp3 in Resources */,
+				DF035954264D1E8000BA236E /* icon.png in Resources */,
 				DF035941264B8D7C00BA236E /* battlebg.png in Resources */,
 				DF03594A264B8D7C00BA236E /* BGM_battle001.mp3 in Resources */,
 				DF03594E264B8D7C00BA236E /* SE_charge.mp3 in Resources */,
